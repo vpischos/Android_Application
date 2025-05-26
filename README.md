@@ -1,1 +1,1 @@
-# Android_Application
+We made a Full stack android application using PHP programming language and SLIM dataframe for the backend. We used Retrofit http client that enables get/post/update/delete requests and returns a JSON format response. We developed the Frontend using android studio.
