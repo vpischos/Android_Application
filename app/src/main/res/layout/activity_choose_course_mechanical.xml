@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_choose_course_mechanical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activities.ChooseCourseActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have no courses picked. Please pick exactly 5 courses from the department of mechanical engineering."
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/checkboxContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Checkbox for each course -->
+            <CheckBox
+                android:id="@+id/checkbox_course1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Linear Algebra I"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathematics I"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathematics II"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Differential Equations I"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer Programming"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electrical Engines I"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motors I"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electrical Engines II"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thermodynamics I"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thermodynamics II"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chemistry"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrepreneurship"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heat Transportation"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liquid Transportation"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internal combustion engines"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motors II"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathematics III"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English II"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_course20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chemistry II"/>
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                android:enabled="false"
+                android:text="Submit"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
